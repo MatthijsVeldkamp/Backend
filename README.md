@@ -3,6 +3,6 @@
 | Opdracht | Status |
 | -------- | ------ |
 | Hello world! |Klaar|
-| Rekenen |Niet klaar|
+| Rekenen |Klaar|
 | Goedemorgen |Niet klaar|
 
