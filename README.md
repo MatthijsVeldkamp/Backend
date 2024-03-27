@@ -2,7 +2,7 @@
 
 | Opdracht | Status |
 | -------- | ------ |
-| Hello world! |Niet klaar|
+| Hello world! |Klaar|
 | Rekenen |Niet klaar|
 | Goedemorgen |Niet klaar|
 
