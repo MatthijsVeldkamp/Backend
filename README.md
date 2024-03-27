@@ -2,7 +2,7 @@
 
 | Opdracht | Status |
 | -------- | ------ |
-| Hello world! | <mark style="background-color:red; color:white;">Niet klaar</mark>  |
-| Rekenen | <span style="color:red;">Niet klaar</span> |
-| Goedemorgen | <span style="color:#FF0000;">Niet klaar</span> |
+| Hello world! |Niet klaar|
+| Rekenen |Niet klaar|
+| Goedemorgen |Niet klaar|
 
