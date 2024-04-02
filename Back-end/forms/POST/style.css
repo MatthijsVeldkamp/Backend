@@ -1,0 +1,100 @@
+/* import poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #121212;
+    color: #FFF;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    width: auto;
+    height: 500px;
+    border: #FFF 1px solid;
+    border-radius: 10px;
+}
+.data_container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    width: auto;
+    height: 500px;
+    border: #FFF 1px solid;
+    border-radius: 10px;
+}
+form
+{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+form input
+{
+    border: 2px solid #FFF;
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 20px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+form input:hover
+{
+    transform: translateY(-5px) scale(1.05);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+form input:focus
+{
+    transform: translateY(-5px) scale(1.05);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#submit
+{
+    background: #FFF;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#submit:hover
+{
+    background: #FF0000;
+    color: #FFF;
+    transform: scale(1.1) rotate(3deg);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#submit:focus
+{
+    background: #FF0000;
+    color: #FFF;
+    transform: scale(1.1) rotate(3deg);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#submit:active
+{
+    background: #500000;
+    color: #FFF;
+    transform: scale(0.9) rotate(-1deg);
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
