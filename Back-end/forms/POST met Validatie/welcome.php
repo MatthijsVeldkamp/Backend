@@ -1,6 +1,6 @@
 <?php
-    $name = isset($_POST['name']) ? htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8') : '';
-    $email = isset($_POST['email']) ? htmlspecialchars($_POST['email'], ENT_QUOTES, 'UTF-8') : '';
+    $name = $_POST['name'];
+    $email = $_POST['email'];
 ?>
 
 
@@ -18,10 +18,20 @@
             ?>
     <div class="data_container">
         <h1>De ingevulde gegevens zijn:</h1>
+        <!-- sanitize the inputs -->
+        <?php
+        $name = htmlspecialchars($name);
+        $email = htmlspecialchars($email);
+        ?>
         <p>Naam: <?php echo $name; ?></p>
         <p>Email: <?php echo $email; ?></p>
     </div>
-        <div class="container">
+    <?php
+        }
+        else
+        {
+            ?>
+            <div class="container">
         <h3>Vul de opgevraagde info in:</h3>
         <form method="POST" action="welcome.php">
             <label for="name"></label>
