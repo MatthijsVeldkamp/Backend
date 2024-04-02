@@ -1,0 +1,5 @@
+<?php
+
+$msg = "Hello, world!";
+
+?>
