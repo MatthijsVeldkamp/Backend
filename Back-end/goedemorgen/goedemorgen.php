@@ -19,23 +19,19 @@
     }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $msg?></title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img id="myImg" src="<?php echo $background?>">
-    <style>
-        #myImg {
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-
-            }
-    </style>
+    <img id="Achtergrond" src="<?php echo $background?>">
+    <div class="container">
+        <h1><?php echo $msg?></h1>
+        <h2 id="time">Het is nu:</h2>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>

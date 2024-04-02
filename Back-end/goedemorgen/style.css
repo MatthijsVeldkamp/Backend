@@ -1,0 +1,58 @@
+/* import poppins font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1
+{
+    z-index: 1;
+}
+
+#Achtergrond 
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+@keyframes fadeIn
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.container
+{
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 21px;
+    min-height: 100vh;
+    animation: fadeIn 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+}
+
+#time
+{
+    animation: fadeIn 1s cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
